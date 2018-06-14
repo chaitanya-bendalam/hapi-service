@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Guessing Game </title>
+
+  <body>
+    <section>
+      <div>
+        <p>I am thinking a number from 1 to 10.</p>
+        <p>You must guess what it is in three tries.</p>
+        <label>
+            Enter a Guess <input type="text" onpaste="return false;"
+            maxlength="2" onkeyup='return minMaxNumberCheck(this)'
+            onkeypress='return validateNumber(event)' name="guess_value"
+            id="guess_value" />
+            <input type="button" name="guessit" id="guessit" value="Guess it" />
+          </label>
+        <p id="optText"></p>
+      </div>
+    </section>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/guessingscript.js"></script>
+  </body>
+
+</html>
