@@ -4,9 +4,7 @@
   "description": "Latest Hapi service practice",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "start": "node ./lib/index.js",
-    "lint": "eslint ."
+    "start": "node ./lib/index.js"
   },
   "keywords": [
     "hapi",
