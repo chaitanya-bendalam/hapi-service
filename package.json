@@ -19,10 +19,10 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^20.1.4",
+    "@hapi/hapi": "^21.4.9",
     "@hapi/inert": "^6.0.3",
     "@hapi/vision": "^6.1.0",
-    "hapi-swagger": "^14.2.0",
+    "hapi-swagger": "^17.3.2",
     "joi": "^17.4.0"
   },
   "repository": {
